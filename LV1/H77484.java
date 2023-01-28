@@ -35,12 +35,14 @@ public class H77484 {
         answer[1] = 7 - min;
         return answer;
     }
-    /*
+/*
     public static void main(String[] args){
-        int[] lottos = new int[]{44,1,0,0,31,25};
-        System.out.println(Arrays.toString(solution(lottos)));
+        int[] lottos = new int[]{1,2,3,4,5};
+        int[] win_nums = new int[]{31,10,45,1,6,19};
+        System.out.println((solution(lottos));
+        System.out.println((solution(win_nums));
     }
-
-
+    }
 */
 }
+

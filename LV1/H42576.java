@@ -29,7 +29,7 @@ public class H42576 {
 
 
     public static void main(String[] args) {
-        String arr[] = {"leo", "kiki", "eden"};
+        String[] arr = {"leo", "kiki", "eden"};
         String arr1[] = {"eden", "kiki"};
         System.out.println(solution(arr,arr1));
         String arr2[] = {"marina", "josipa", "nikola", "vinko", "filipa"};
