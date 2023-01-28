@@ -1,2 +1,4 @@
-package LV1;public class H42840 {
+package LV1;
+
+public class H42840 {
 }

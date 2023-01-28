@@ -4,7 +4,7 @@ import java.util.*;
 
 public class H42576 {
     static String solution(String[] participant, String[] completion){
-        HashMap<String,Integer> hm = new HashMap<>();
+        HashMap<String,Integer> hm = new HashMap<>();                       // 요소가 많을 때 Map을 사용 (빠름빠름) 1000개 만개 될때!
         String answer = "";
 
         for (int i=0; i<participant.length; i++){
