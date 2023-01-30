@@ -23,4 +23,8 @@ public class H120808 {
 
         return answer;
     }
+    public static void main(String[] args){
+
+        System.out.println();
+    }
 }

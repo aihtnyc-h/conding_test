@@ -50,7 +50,7 @@ public class H81301 {
             }
 
             if(s.charAt(i)=='z') b+="0"; // 0
-            if('0'<=s.charAt(i)&&s.charAt(i)<='9') b+=s.charAt(i)-48;   // 값이 숫자인 경우
+            if('0'<=s.charAt(i)&&s.charAt(i)<='9') b+=s.charAt(i)-48;   // 값이 숫자인 경우 -48을 뺀 이유는 0이 48이여서 아스키 코드참고!
             }
 
         int answer = Integer.parseInt(b); //  구한 값을 int형을 변환 -> 결과적으로 숫자로 만들어야하기 떄문

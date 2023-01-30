@@ -13,7 +13,7 @@ public class H12926 {
             char ch = s.charAt(i); // charAt(i): i에 들어간 값을 char형으로 바꿔줌
 
             if(Character.isLowerCase(ch)) ch = (char) ((ch - 'a' + n) % 26 + 'a');  //Character.isLowerCase(i) i 들어간 값이 소문자이면 true 아니라면 false를 반환
-                // 값이 y, n이 4일 경우 %26에 걸러져  z 이후 다시 a로 시작하게 된다.
+                // 값이 y, n이 4일 경우 %26에 걸러져  z 이후 다시 a로 시작하게 된다.  %26을 한 이유는 알파벳의 갯수나 26개이기 떄문에
             else if(Character.isUpperCase(ch)) ch = (char) ((ch - 'A' + n) % 26 + 'A');  //Character.isUpperCase(i) i 들어간 값이 대문자이면 true 아니라면 false를 반환합니다.
             answer += ch; // 걸러진 값들을 저장
 
