@@ -13,7 +13,7 @@ JOI잡화점에는 잔돈으로 500엔, 100엔, 50엔, 10엔, 5엔, 1엔이 충�
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-public class 거스름5585 {
+public class P5585 {
         public static void main(String[] args) throws IOException {
             BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
             int cost = Integer.parseInt(br.readLine());

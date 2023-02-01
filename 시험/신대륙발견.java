@@ -15,7 +15,6 @@ public class 신대륙발견 {
         //Date nowDate = new Date();
         //System.out.println("포맷 지정 전 : " + nowDate);
 
-
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat();
         //원하는 데이터 포맷 지정
         //String strNowDate = simpleDateFormat.format(2023-01-18);
@@ -27,7 +26,7 @@ public class 신대륙발견 {
         Calendar cal = Calendar.getInstance();	 //날짜 계산을 위해 Calendar 추상클래스 선언 getInstance()메소드 사용
         cal.set(2023,month -1 ,day);
         //cal.setTime(time);
-        cal.add(Calendar.DATE, 98);	//98 더하기
+        cal.add(Calendar.DATE, -10);	//98 더하기
         String answer = String.valueOf(cal.getTime());
         return answer;
 
